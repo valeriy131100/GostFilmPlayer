@@ -6,10 +6,24 @@
 
   <link rel="stylesheet" href="static/font-awesome/css/font-awesome.min.css">
   <style>
+    .player {
+      width: 800px;
+      height: 600px;
+    }
+
+    .player-video-container {
+      width: 100%;
+      height: 100%;
+    }
+
     .player-button {
       border-style:none;
       cursor:pointer;
-      background-color:transparent
+      background-color:transparent;
+    }
+
+    .player-button-icon {
+      color:white;
     }
   </style>
 
@@ -18,14 +32,15 @@
   <script src="static/player.js"></script>
 </head>
 <body>
-  <div id="player" style="width: 800px; height: 600px;">
-    <div class="js-video-container" style="width: 100%; height: 100%"></div>
+  <div id="player" class="player">
+    <div class="js-video-container player-video-container"></div>
+
     <div style="background:black">
       <button class="js-play-button player-button">
-        <i class="fa fa-play" style="color:white" aria-hidden="true"></i>
+        <i class="fa fa-play player-button-icon" aria-hidden="true"></i>
       </button>
       <button class="js-pause-button player-button">
-        <i class="fa fa-pause" style="color:white" aria-hidden="true"></i>
+        <i class="fa fa-pause player-button-icon" aria-hidden="true"></i>
       </button>
     </div>
   </div>
