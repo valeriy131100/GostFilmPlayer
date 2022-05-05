@@ -4,6 +4,8 @@
 
 [Сайт запущенный на Github Pages](https://valeriy131100.github.io/GostFilmPlayer/).
 
+![W7niut.md.png](https://iili.io/W7niut.md.png)
+
 ## Установка
 Вам понадобится установленный git.
 
