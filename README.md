@@ -2,7 +2,7 @@
 
 Сайт с версткой видеоплеера.
 
-Пример сайта - [Репозиторий](https://github.com/valeriy131100/GostFilmPlayerWebsiteExample), [Сайт](https://valeriy131100.github.io/GostFilmPlayerWebsiteExample/pages/index1.html).
+[Сайт запущенный на Github Pages](https://valeriy131100.github.io/GostFilmPlayer/).
 
 ## Установка
 Вам понадобится установленный git.
